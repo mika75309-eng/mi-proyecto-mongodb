@@ -1,0 +1,23 @@
+{
+  "name": "mi-proyecto-mongodb",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Proyectos - Backend con Node.js + Express + MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "api", "rest"],
+  "author": "GasparRiveraAlejandro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
